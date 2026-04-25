@@ -10,6 +10,7 @@ npx expo start --ios    # Start and open iOS simulator
 npx expo start --android # Start and open Android emulator
 npx expo start --web    # Start web version
 npm run lint            # Run ESLint via expo lint
+npm run prebuild        # Run expo pre-build step to build native directories (ios and android)
 ```
 
 EAS builds (requires EAS CLI and login):
