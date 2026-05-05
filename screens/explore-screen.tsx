@@ -7,8 +7,7 @@ import { ThemedText } from '@/components/primitives/ThemedText';
 import { ThemedView } from '@/components/primitives/ThemedView';
 import { Collapsible } from '@/components/ui/Collapsible';
 import ParallaxScrollView from '@/components/ui/ParallaxScrollView';
-import TaskCard from '@/components/ui/task-card';
-import { Fonts } from '@/constants/theme';
+import TaskCard from '@/components/ui/TaskCard';
 
 const SAMPLE_TASKS = [
   { id: '1', title: 'Team standup', time: '9:00 AM – 9:30 AM', color: '#0a7ea4', completed: false },
@@ -30,7 +29,7 @@ export default function ExploreScreen() {
         />
       }>
       <ThemedView style={{ flexDirection: 'row', gap: 8 }}>
-        <ThemedText type="title" style={{ fontFamily: Fonts?.rounded }}>
+        <ThemedText type="title">
           Explore
         </ThemedText>
       </ThemedView>
@@ -109,7 +108,7 @@ export default function ExploreScreen() {
           This template includes an example of an animated component. The{' '}
           <ThemedText type="defaultSemiBold">components/HelloWave.tsx</ThemedText> component uses
           the powerful{' '}
-          <ThemedText type="defaultSemiBold" style={{ fontFamily: Fonts?.mono }}>
+          <ThemedText type="defaultSemiBold">
             react-native-reanimated
           </ThemedText>{' '}
           library to create a waving hand animation.
