@@ -7,7 +7,6 @@
     "icon": "./assets/images/icon.png",
     "scheme": "chronos",
     "userInterfaceStyle": "automatic",
-    "newArchEnabled": true,
     "ios": {
       "entitlements": {
         "com.apple.developer.networking.wifi-info": true
@@ -21,7 +20,6 @@
         "backgroundImage": "./assets/images/android-icon-background.png",
         "monochromeImage": "./assets/images/android-icon-monochrome.png"
       },
-      "edgeToEdgeEnabled": true,
       "predictiveBackGestureEnabled": false,
       "package": "com.vulleinc.chronos"
     },
@@ -42,8 +40,7 @@
             "backgroundColor": "#000000"
           }
         }
-      ],
-      "@react-native-community/datetimepicker"
+      ]
     ],
     "experiments": {
       "typedRoutes": true,
